@@ -20,9 +20,6 @@ import sys
 import argparse
 import logging
 
-#   Importing prettyPrint just for testing REMOVE ONCE FINISHED
-import pprint
-pp = pprint
 
 #-----------------------------------------------------------------------
 # Globals
