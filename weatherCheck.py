@@ -198,11 +198,11 @@ def lookAtHistory():
         
         if OUTPUT_AVG_HIST_7_DAY_TOTAL:
             weekly_avg = sum(lookup_hist.values()) / len(lookup_hist.values())
-            print("\n   The average temperature of %s was %0d F over the last 7 days." % (LOCATION_QUERY, weekly_avg))
+            print("\n   The average temperature of San Jose, CA was %0d F over the last 7 days." %  weekly_avg)
                 
                 
         if OUTPUT_AVG_HIST_7_DAY_BY_DAY:
-            print("\n   The average temperature for the last 7 days is as follows:\n")
+            print("\n   The average temperature for the last 7 days in San Jose, CA is as follows:\n")
             for key, value in lookup_hist.items():
                 print("Average Temperature for %s was %sF" % (key, value))
         
