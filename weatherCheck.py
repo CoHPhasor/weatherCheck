@@ -6,7 +6,6 @@
 #       This tool uses the Weather Underground API, thanks to all the meteorologists!
 #       www.wunderground.com
 #
-#       Additional thanks to Kevin and Q, thank you for your support and resources.  :-)
 #
 # Copyright 2015 Shaun Potts
 ################################################################
